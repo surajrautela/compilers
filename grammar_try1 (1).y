@@ -329,7 +329,7 @@ void dfs(node *n,int cnt)
 int main()
 {
 	yyparse();
-	dfs(root,0);
+	
 }
 void yyerror (char *s) { printf("Error in line: %d, text: %s \n", mylineno, yytext);}
 
